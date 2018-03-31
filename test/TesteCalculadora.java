@@ -34,6 +34,11 @@ public class TesteCalculadora {
         Calculadora c = new Calculadora();
         int result = c.multiplicacao(6,3);
         assertEquals(18,result);
-        
+    }
+    @Test
+    public void TesteDiv(){
+        Calculadora c = new Calculadora();
+        double result = c.divisao(6,3);
+        assertEquals(2,result,0.5);
     }
 }
